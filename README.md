@@ -1,4 +1,4 @@
-# Gym Web App
+# Gym Web App ![Django](https://github.com/ESWZY/cs50web-final-project/workflows/Django%20CI/badge.svg)
 
 # Distinctiveness and Complexity
    - this project is different from other projects since it has nothing to do with networking , Ecommerce , or even Mail platforms ,it is a gym website which i can buy new             membership ,renew my old membership , adding classes with existing members as trainers , i can join & leave classes , i cant join any class unless i am a execlusive member         with valid membership ,more over, keeping track of number of people enrolled in each class visiting my user page to read my information about membrship whether my    #            membership     
