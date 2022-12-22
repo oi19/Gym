@@ -1,7 +1,7 @@
 # Gym ![Django](https://github.com/ESWZY/cs50web-final-project/workflows/Django%20CI/badge.svg)
 
-  A mobile responsive websitepowered by [Django](https://www.djangoproject.com/) using [Python](https://www.python.org/) , in which i can buy new membership ,renew my old membership , adding classes with existing members as trainers , i can join & leave classes , i cant join any class unless i am a execlusive member         with valid membership ,more over, keeping track of number of people enrolled in each class visiting my user page to read my information about membrship whether my    #            membership  is valid or expired
-  - finally having a mobile responsive website to be more flexible easier to deal with and more dynamic with different devices of different sizes
+  A Mobile Responsive website powered by [Django](https://www.djangoproject.com/) using [Python](https://www.python.org/) , in which i can buy new membership ,renew my old membership , adding classes with existing members as trainers , i can join & leave classes , i cant join any class unless i am a execlusive member with valid membership ,more over, keeping track of number of people enrolled in each class visiting my user page to read my information about membrship whether my             membership  is valid or expired
+  #   finally having a mobile responsive website to be more flexible easier to deal with and more dynamic with different devices of different sizes
 
 
 # Project Structure
