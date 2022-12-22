@@ -1,0 +1,6 @@
+# my.cnf
+[client]
+database = gg
+user = root
+password = 01017876733
+default-character-set = utf8

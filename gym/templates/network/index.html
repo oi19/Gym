@@ -1,0 +1,63 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+
+{% if request.user.is_authenticated %}
+<div class="container">
+    <div class="title">Home</div>
+    <!-- posting container -->
+      <div id="post-sub1" style="display: none;">
+        <a>
+            <form id="post-form1">
+                {% csrf_token %}
+                <h6>Memebership</h6>
+                <a>expired</a>
+                <button class='join-leave-button1' id='buy-renew' type="submit">buy</button>
+            </form>
+        </a>
+    </div>
+    {% for class in context.classes %}
+
+    <div class="post-sub">
+        <a>
+            <form class="post-form" }>
+                {% csrf_token %}
+                <a>Class:{{class.name}}</a>
+                <a>Trainer:{{class.coach}}</a>
+                <button class='join-leave-button' id={{class.id}} type="submit"></button>
+                <div class="capacity"><h6 class="class-number" id='c{{class.id}}'></h6>people joined this class</div>
+            </form>
+        </a>
+    </div>
+    {% endfor%}
+
+
+
+
+
+
+
+
+
+    <!-- <div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item ">
+                    <button class="page-link" id="previous" tabindex="-1" disabled>Previous</button>
+                </li>
+                <li class="page-item"><button class="page-link" id="page-num">1</button></li>
+                <li class="page-item">
+                    <button class="page-link" id="next">Next</button>
+                </li>
+            </ul>
+        </nav>
+    </div> -->
+</div>
+
+
+
+{% endif %}
+{% endblock %}
+<!-- {% block script %}
+<script src="static/network/assets/js/main.js"></script>
+{% endblock%} -->
