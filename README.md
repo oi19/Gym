@@ -7,23 +7,22 @@
 
 
 ## HTML Files
- - add Page(include a form with post request to add new class)
+ - add.html
    - it is a page inwhich a person can add new gym classes to the schedual as well as adding an available  trainer or coach that works at the gym 
       
- - index page (include all classes)
+ - index.html
    - this page has all available gym classes with the number of the people joined to that each class as well as each class's trainer's name 
-   
-   - as well as a button for getting a membership or renew your expired one depends on your situation and if youre expired you see no classes since you cant join classes 
+   - as well as a button for getting a membership or renew your expired one depends on your situation and if youre expired you see no classes since you cant join classes.html
     unless you have youre membership verified 
    
    
- - user page(include user infomation)
+ - user.html
    -  this page has the information about the user and thier memebership date info and whether it's expired or not 
  
- - login page:-
+ - login.html
    - user has to login in order to participate in  any class 
  
- - Register page:-
+ - Register.html
    - a page in which a user with no previous interaction with this site has to register to be able to use this website
   
 
