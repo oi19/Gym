@@ -64,8 +64,8 @@
 
 # Setup
    ```shell script
-git clone https://github.com/me50/oi19.git
-cd web50/projects/2020/x/capstone
+git clone https://github.com/oi19/Gym
+cd Gym
 ```
 Run the following command to run your server.
 
